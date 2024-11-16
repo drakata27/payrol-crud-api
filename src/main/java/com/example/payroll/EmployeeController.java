@@ -17,6 +17,7 @@ public class EmployeeController {
     }
 
     //GET
+    // TODO: Getting an aggregate root
     @GetMapping("/employees")
     List<Employee> all() {
         return employeeRepository.findAll();
